@@ -1,0 +1,86 @@
+.addcourse{
+    height: 80%;
+    width: 100%;
+}
+
+.addstudent{
+    height: 80%;
+    width: 100%;
+}
+
+.addfee{
+    height: 80%;
+    width: 100%;
+}
+
+.addform img{
+  width:50px;
+  height:50px;
+}
+
+.courseEdit{
+  height: 80%;
+  width: 100%;
+}
+
+.studentEdit{
+  height: 80%;
+  width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+    .addcourse{
+        height: 100%;
+        width: 100%;
+        padding: 1.5rem 0px;
+        overflow: hidden;
+    }
+
+    .addstudent{
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem 0px;
+        overflow: hidden;
+      }
+  
+    .addfee{
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem 0px;
+      overflow: hidden;
+    }
+
+    .courseEdit{
+      height: 100%;
+      width: 100%;
+      padding: 1.5rem 0px;
+      overflow: hidden;
+    }
+
+    .studentEdit{
+      height: 100%;
+      width: 100%;
+      padding: 1.5rem 0px;
+      overflow: hidden;
+    }
+    
+
+    .addbox{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 10px;    
+    }
+
+    .formfile{
+      display: flex;
+      flex-direction: column;
+    }
+    .addform img{
+      width:20px;
+      height:20px;
+    }
+    
+
+  }

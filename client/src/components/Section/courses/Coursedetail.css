@@ -1,0 +1,170 @@
+.courseinfo{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coursedata{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coursebutton{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    width: 300px;
+    height: 200px;
+    /* background-color: green; */
+}
+
+.listtable{
+    width: 100%;
+}
+
+.listtable thead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.listtable tbody{
+    display: flex;
+    flex-direction: column;
+    
+}
+.listtable th,tr{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+.listtable td{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.listtable td:hover{
+    background-color: #3D3BF3;
+    opacity: 0.8;
+    color: white;
+    transition: 0.5s;
+}
+
+.imgstudent{
+    width: 50px;
+    height: 50px;
+    margin-left:1rem;
+}
+
+.imgstudent img{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:768px)
+{
+    .coursedetail{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    .courseinfo{
+        padding: 1rem 0px; 
+        height: 100%;
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .coursedata{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+    .profile{
+        width: 80px;
+        height: 80px;
+        /* float: right; */
+    }
+
+    .details{
+        /* background-color: yellow; */
+        word-break: break-all;
+    }
+    .coursebutton{
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+
+    .coursebutton .btn{
+        width: 30%;
+    }
+
+    .student{
+        display: flex;
+        flex-direction: column;
+        /* overflow: hidden; */
+
+    }
+
+     .listtable td{
+        /* background-color: red; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+ 
+    }
+    .listtable tr{
+        width: 100%;
+        /* margin-top: .2rem; */
+        word-break: break-all;
+        white-space: normal;
+        font-size: .9rem;
+    } 
+
+    .listtable td:hover{
+        background-color: gainsboro;
+        color:black;
+        font-weight: 700;
+    }
+
+    .imgstudent{
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .listtable thead{
+        height: 0px;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+    }
+
+
+}

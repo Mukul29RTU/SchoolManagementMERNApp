@@ -1,0 +1,56 @@
+/* .home-top-box{
+    gap: 1rem;
+}
+
+.home-top-box div{
+    width: 33%;
+    border-radius: 5px;
+    height: 25vh;
+    cursor: pointer;
+}
+
+.card .dates{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+table{
+    width: 100%;
+}
+
+thead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+tbody{
+    display: flex;
+    flex-direction: column;
+    
+}
+th,tr{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+td{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+td:hover{
+    background-color: #3D3BF3;
+    opacity: 0.8;
+    color: white;
+    transition: 0.5s;
+} */
